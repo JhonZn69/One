@@ -1,154 +1,199 @@
 <!DOCTYPE html>
 <html lang="es">
-    <!-- Jhonatan Alexander Roncal Carmona 19/02/2025-->
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Marcas de Motos</title>
-        <style>
-            /* css */
-            body {
-                font-family: 'Arial', sans-serif;
-                margin: 0;
-                padding: 0;
-                background-color: #f4f4f4;
-                text-align: left;
-            }
-            header {
-                background: linear-gradient(to right, #460606, #ba0d0d);
-                color: white;
-                padding: 20px 0;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-                text-align: center;
-            }
-            header h1 {
-                font-size: 2.5em;
-                letter-spacing: 2px;
-                text-transform: uppercase;
-                font-weight: bold;
-            }
-            .container {
-                padding: 30px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-            .moto {
-                margin: 20px 0;
-                background: white;
-                border-radius: 8px;
-                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-                overflow: hidden;
-                width: 100%;
-                max-width: 800px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                padding: 20px;
-            }
-            .moto img {
-                width: 40%;
-                max-width: 300px;
-                border-radius: 8px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            }
-            .moto h2 {
-                font-size: 1.6em;
-                color: #460606;
-                margin-top: 15px;
-                font-weight: bold;
-                text-align: center;
-            }
-            .moto ul {
-                font-size: 1em;
-                color: #333;
-                margin: 10px 0 15px;
-                padding-left: 20px;
-            }
-            @media (max-width: 768px) {
-                header h1 {
-                    font-size: 2em;
-                }
-                .moto img {
-                    width: 45%;
-                }
-            }
-            @media (max-width: 480px) {
-                header h1 {
-                    font-size: 1.8em;
-                }
-                .moto h2 {
-                    font-size: 1.3em;
-                }
-                .container {
-                    padding: 15px;
-                }
-                .moto {
-                    flex-direction: column;
-                    text-align: center;
-                }
-                .moto img {
-                    width: 80%;
-                    margin-bottom: 15px;
-                }
-            }
-        </style>
-    </head>
-     <!-- Web responsive-->
-    <body>
-        <header>
-            <h1>Marcas y Modelos de Motos</h1>
-        </header>
-        <div class="container">
-            <div class="moto">
-                <img src="https://storage.kawasaki.eu/public/kawasaki.eu/en-EU/model/24MY_Z900_RD1_STU%20(1).001.png" alt="Kawasaki Z900">
-                <div>
-                    <h2>Kawasaki Z900</h2>
-                    <ul>
-                        <li>Motor: 948 cc</li>
-                        <li>4 cilindros en línea refrigerado por líquido.</li>
-                        <li>Potencia: Aproximadamente 125 CV a 9.500 rpm.</li>
-                        <li>Par motor: 98,6 Nm a 7.700 rpm.</li>
-                        <li>Peso: 212 kg (con ABS).</li>
-                        <li>Chasis: Estructura multitubular en acero, ligera y rígida.</li>
-                        <li>Suspensión: Horquilla invertida de 41 mm en la parte delantera.</li>
-                        <li>Frenos: Doble disco delantero de 300 mm con pinzas radiales.</li>
-                        <li>Electrónica: Modos de conducción.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="moto">
-                <div>
-                    <h2>Yamaha MT 09</h2>
-                    <ul>
-                        <li>Motor: 890 cc, 3 cilindros en línea, refrigerado por líquido.</li>
-                        <li>Potencia: Aproximadamente 119 CV a 10.000 rpm.</li>
-                        <li>Par motor: 93 Nm a 7.000 rpm.</li>
-                        <li>Peso: 189 kg (con ABS).</li>
-                        <li>Chasis: Deltabox de aluminio, ligero y rígido.</li>
-                        <li>Suspensión: Horquilla invertida de 41 mm en la parte delantera.</li>
-                        <li>Frenos: Doble disco delantero de 298 mm con pinzas radiales.</li>
-                        <li>Electrónica: Modos de conducción, IMU de 6 ejes, control de tracción.</li>
-                    </ul>
-                </div>
-                <img src="https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/MT09-negra-01.png" alt="Yamaha MT-09">
-            </div>
-            <div class="moto">
-                <img src="https://arriolamotor.com/wp-content/uploads/2024/05/fb_r_w.webp" alt="Honda CB1000R">
-                <div>
-                    <h2>Honda CB1000R</h2>
-                    <ul>
-                        <li>Motor: 998 cc, 4 cilindros en línea, refrigerado por líquido.</li>
-                        <li>Potencia: Aproximadamente 143 CV a 10.500 rpm.</li>
-                        <li>Par motor: 104 Nm a 8.250 rpm.</li>
-                        <li>Peso: 212 kg (con ABS).</li>
-                        <li>Chasis: Estructura mono-backbone de acero, ligera y rígida.</li>
-                        <li>Suspensión: Horquilla invertida Showa SFF-BP de 43 mm en la parte delantera.</li>
-                        <li>Frenos: Doble disco delantero de 310 mm con pinzas radiales.</li>
-                        <li>Electrónica: Modos de conducción, control de tracción, acelerador electrónico.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </body>
-</html>
+    <!-- Jhonatan Alexander Roncal Carmona 20/02/2025-->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcas de Motos</title>
+    <style>
+        /* Web Responsiva */
+      body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #e3e3e3;
+        text-align: center;
+      }
+      header {
+        background: linear-gradient(to right, #460606, #ba0d0d);
+        color: white;
+        padding: 30px 0;
+      }
+      header h1 {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2.5em;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+        color: #ffffff;
+      }
+      header h1:hover {
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+      }
+      .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 30px;
+        justify-content: center;
+      }
+      .moto {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        padding: 20px;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+      .moto:hover {
+        transform: scale(1.03);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      }
+      .moto img {
+        width: 100%;
+        max-width: 250px;
+        height: 180px;
+        object-fit: contain;
+        border-radius: 8px;
+      }
+      .moto h2 {
+        font-size: 1.5em;
+        color: #460606;
+        margin-top: 10px;
+      }
+      .moto ul {
+        font-size: 1em;
+        color: #333;
+        text-align: left;
+        padding-left: 20px;
+      }
+
+      @media (max-width: 768px) {
+        header h1 {
+          font-size: 2em;
+        }
+        .container {
+          grid-template-columns: 1fr 1fr;
+          padding: 20px;
+        }
+        .moto {
+          padding: 15px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        header h1 {
+          font-size: 1.8em;
+        }
+        .container {
+          grid-template-columns: 1fr;
+          padding: 10px;
+        }
+        .moto {
+          padding: 10px;
+        }
+        .moto img {
+          max-width: 200px;
+          height: 150px;
+        }
+        .moto h2 {
+          font-size: 1.3em;
+        }
+        .moto ul {
+          font-size: 0.9em;
+        }
+      }
+    </style>
+  </head>
+  <!-- Web responsive y sus apartados-->
+  <body>
+    <header>
+      <h1>Velocidad y Estilo en Motos</h1>
+    </header>
+    <div class="container">
+      <div class="moto">
+        <img src="https://storage.kawasaki.eu/public/kawasaki.eu/en-EU/model/24MY_Z900_RD1_STU%20(1).001.png" alt="Kawasaki Z900">
+        <h2>Kawasaki Z900 2025</h2>
+        <ul>
+          <li>Motor: 948 cc, 4 cilindros en línea.</li>
+          <li>Potencia: 125 CV a 9.500 rpm.</li>
+          <li>Peso: 212 kg (con ABS).</li>
+        </ul>
+      </div>
+      <div class="moto">
+        <img src="https://yamaha-mundoyamaha.com/wp-content/uploads/2024/08/mt09-info-black.png" alt="Yamaha MT-09">
+        <h2>Yamaha MT09 2025</h2>
+        <ul>
+          <li>Motor: 890 cc, 3 cilindros en línea.</li>
+          <li>Potencia: 119 CV a 10.000 rpm.</li>
+          <li>Peso: 189 kg (con ABS).</li>
+        </ul>
+      </div>
+      <div class="moto">
+        <img src="https://arriolamotor.com/wp-content/uploads/2024/05/fb_r_w.webp" alt="Honda CB1000R">
+        <h2>Honda CB1000R</h2>
+        <ul>
+          <li>Motor: 998 cc, 4 cilindros en línea.</li>
+          <li>Potencia: 143 CV a 10.500 rpm.</li>
+          <li>Peso: 212 kg (con ABS).</li>
+        </ul>
+      </div>
+      <div class="moto">
+        <img src="https://storage.kawasaki.eu/public/kawasaki.eu/en-EU/model/25MY_KX450_GN1_STU__2_.png" alt="Kawasaki KX450 2025">
+        <h2>Kawasaki KX450 2025</h2>
+        <ul>
+          <li>Motor: 450 cc, monocilíndrico.</li>
+          <li>Potencia: 63 CV.</li>
+          <li>Peso: 110 kg.</li>
+        </ul>
+      </div>
+      <div class="moto">
+        <img src="https://yamaha-mundoyamaha.com/wp-content/uploads/2023/10/yz250_motos2024_header.png" alt="Yamaha 250 YZ 2025">
+        <h2>Yamaha 250YZ 2025</h2>
+        <ul>
+          <li>Motor: 250 cc, monocilíndrico.</li>
+          <li>Potencia: 48 CV.</li>
+          <li>Peso: 104 kg.</li>
+        </ul>
+      </div>
+      <div class="moto">
+        <img src="https://grupimpala.com/wp-content/uploads/2021/04/RD-ENDURO-CRF-400RX-FRONT.png" alt="HONDA CRF 400 2025">
+        <h2>Honda CRF400 2025</h2>
+        <ul>
+          <li>Motor: 400 cc, monocilíndrico.</li>
+          <li>Potencia: 55 CV.</li>
+          <li>Peso: 115 kg.</li>
+        </ul>
+      </div>
+      <div class="moto">
+        <img src="https://ducatibarcelona.com/wp-content/uploads/2023/12/Streetfighter_V4_2-1.png" alt="Ducati Streetfighter V4">
+        <h2>Ducati Streetfighter V4</h2>
+        <ul>
+          <li>Motor: 1103 cc, V4.</li>
+          <li>Potencia: 208 CV a 13.000 rpm.</li>
+          <li>Peso: 200 kg.</li>
+        </ul>
+      </div>
+      <div class="moto">
+        <img src="https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2023/09/29/16960136031864.png" alt="BMW M 1000 RR">
+        <h2>BMW M 1000 RR</h2>
+        <ul>
+          <li>Motor: 999 cc, 4 cilindros en línea.</li>
+          <li>Potencia: 205 CV a 14.500 rpm.</li>
+          <li>Peso: 192 kg.</li>
+        </ul>
+      </div>
+      <div class="moto">
+        <img src="https://storage.kawasaki.eu/public/kawasaki.eu/en-EU/model/23MY_Ninja%20ZX-10RR_GN1_STU%20(1).001.png" alt="Kawasaki ZX 10RR">
+        <h2>Kawasaki ZX 10RR</h2>
+        <ul>
+          <li>Motor: 998 cc, 4 cilindros en línea.</li>
+          <li>Potencia: 204 CV a 13.500 rpm.</li>
+          <li>Peso: 197 kg.</li>
+        </ul>
+      </div>
+      <div class="moto">
+        <img src="https://www.suzuki.com.co/sites/default/files/2023-12/GSX%20S1000%20NEGRA.png" alt="suzuki GSX-S1000">
+        <h2>Suzuki GSX-S1000</h2>
+        <ul>
+          <li>Motor: 999 cc, 4 cilindros en línea, refrigerado por líquido.</li
